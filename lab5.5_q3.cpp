@@ -6,18 +6,20 @@ using namespace std;
 
 int main()
 {
-
+	
+//declaring variable	
 int i,j,n;
 cout << "Enter number of Row: ";
 cin >> n;
 
+//print inverted right triangle star pattern	
 for(i=0; i<n; i++){
 	cout << " \n";
 	for(j=0; (n-i)>j; j++){
-	cout << "*";
+	cout << "*";        //printing star
 	}
 }
 
-cout << "\n";
+cout << "\n";     //goto next line
 return 0;
 }
