@@ -14,12 +14,13 @@ cin >> n;
 
 //print inverted right triangle star pattern	
 for(i=0; i<n; i++){
-	cout << " \n";
+				
 	for(j=0; (n-i)>j; j++){
 	cout << "*";        //printing star
+	cout << " \n";		//goto next line
 	}
 }
 
-cout << "\n";     //goto next line
+cout << "\n";     
 return 0;
 }
